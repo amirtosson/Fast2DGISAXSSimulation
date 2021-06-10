@@ -203,6 +203,7 @@ class SimulationControls():
         _simulation.getOptions().setUseAvgMaterials(True)
         _simulation.getOptions().setIncludeSpecular(False)
         background = ba.ConstantBackground(5e+01)
+        _simulation.setBackground(background)
         _simulation.runSimulation()
         result = _simulation.result()
         hist = result.histogram2d(ba.Axes.QSPACE)
