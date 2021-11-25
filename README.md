@@ -8,4 +8,4 @@ Required libs:
 
 To run: put the required "numberOfImages" in the main function. It generates 2 csv files;
 - Input contains the images as 2D arrays with a separating col.
-- Output contains the details about the sample 
+
